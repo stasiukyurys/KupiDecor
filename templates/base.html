@@ -10,19 +10,18 @@
 </head>
 <body>
 
-<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
-    <img class="my-0 mr-md-auto font-weight-normal" src="static/images/logoKupiDecor.png" width="200">
-    <h3 class="my-0 mr-md-auto font-weight-normal">+375(29) 8888888 <br>
-        <a class="my-0 mr-md-auto font-weight-normal"
-           href="mailto:info@kupidecor.by"
-           title="">info@kupidecor.by</a></h3>
-
-    <h5 class="my-0 mr-md-auto font-weight-normal">Город Малорита <br><br>Режим работы: 10:00-19:30 (без выходных)</h5>
-
+<div class="d-flex align-items-center px-md-4 mb-2 bg-light border-bottom">
+    <img src="static/images/logoKupiDecor.png" width="190">
+    <div class="container">
+        <h6 class="text-muted ml-5 mt-2">Город Малорита, режим работы:
+            <span class="h5">10:00-19:30 (без выходных)</span></h6>
+        <h5 class="text-muted ml-5">+375(29)<span class="h2 text-dark">8888888</span></h5>
+        <a class="h5 text-info ml-5" href="mailto:info@kupidecor.by" title="">info@kupidecor.by</a>
+    </div>
     <button type="button" class="btn btn-primary btn-lg">Корзина</button>
 </div>
-    <h1>ВНИМАНИЕ! Сайт на стадии разработки! </h1>
-<div class="d-flex flex-column flex-md-row align-items-center p-2 px-md-4 mb-0 bg-white border-bottom box-shadow">
+
+<div class="d-flex flex-column flex-md-row align-items-center p-0 px-md-4 mb-0 bg-white border-bottom box-shadow">
     <nav class="my-2 my-md-0 mr-md-3">
         <button type="button" class="btn btn-secondary">Главная</button>
         <button type="button" class="btn btn-secondary">КАТАЛОГ</button>
@@ -32,13 +31,13 @@
 
 </div>
 
-
 {% block body %}{% endblock %}
+<div class="bg-dark">
 <footer class="container pt-4 my-md-5 pt-md-5 border-top">
     <div class="row">
         <div class="col-12 col-md">
-            <p>© 2020-2021 KupiDECOR, Inc. · </p>
-            <small class="d-block mb-3 text-muted">info@kupidecor.by</small>
+            <img src="static/images/logoKupiDecor.png" width="200">
+            <p class="text-muted"> © 2020-2021 KupiDECOR, Inc. · </p>
         </div>
 
         <div class="col-6 col-md">
@@ -74,5 +73,6 @@
       </div>
     </div>
   </footer>
+</div>
 </body>
 </html>
